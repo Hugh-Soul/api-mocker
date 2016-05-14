@@ -1,0 +1,33 @@
+{
+  "name": "MockApi",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "service": {
+      "type": "string",
+      "required": true
+    },
+    "facade": {
+      "type": "string",
+      "required": true
+    },
+    "method": {
+      "type": "string",
+      "required": true
+    },
+    "request": {
+      "type": "object"
+    },
+    "response": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
