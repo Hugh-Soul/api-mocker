@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDS": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "hry_api_mock",
+    "username": "",
+    "password": "",
+    "name": "mongoDS",
+    "connector": "mongodb"
+  }
+}
