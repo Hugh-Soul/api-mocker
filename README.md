@@ -23,10 +23,39 @@ $ node .
                 {
                     "orderName": "string"
                 }
-            ],
+            ]
         }
     }
     
     ```
 3. Use **POST** */MockApis/mocking/{facade}/{method}* to get mocking response
-4. Use **POST** */MockApis/detail/{facade}/{method}* to get this MockApi details
+	```json
+    {
+      "responseCode": 0,
+      "responseMessage": "string",
+      "orderList": [
+          {
+              "orderName": "string"
+          }
+      ] 
+    }
+    
+    ```
+4. Use **POST** */MockApis/detail/{facade}/{method}* to query this MockApi details
+
+	```json
+    {
+        "service": "p2p",
+        "facade": "orderFacade",
+        "method": "getOrderList",
+        "response": {
+            "responseCode": 0,
+            "responseMessage": "string",
+            "orderList": [
+                {
+                    "orderName": "string"
+                }
+            ]
+        }
+    }
+   ```
