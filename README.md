@@ -17,11 +17,11 @@ $ node .
         "method": "getOrderList",
         "request": {},
         "response": {
-            responseCode: 0,
-            responseMessage: "string",
-            orderList: [
+            "responseCode": 0,
+            "responseMessage": "string",
+            "orderList": [
                 {
-                    orderName: "string"
+                    "orderName": "string"
                 }
             ],
         }
